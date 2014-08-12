@@ -2,12 +2,265 @@
 <resources>
 
     <string name="app_name">FASS 2014</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Program 1</string>
+    <string name="title_section2">Program 2</string>
+    <string name="title_section3">Glossary</string>
+    <string name="title_section4">Contacts</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
+    <string name="program_one">
+<b>1st Day, Sunday 17.8.2014</b>\n
+<li>Arrival to Ljubljana</li>\n
+<li>18.00-20.00 Info desk and Get to know each other/Taste Slovenia</li>
+\n\n
+<b>2nd Day, Monday 18.8.2014</b>\n
+<li>9.30-10.00 (LR P14) Info desk, Faculty and Library tour</li>\n
+<li>10.00-12.15 (LR P14)) Opening ceremony</li>\n
+<li>12.30-13.30 Lunch in dormitory</li>\n
+<li>14.00-17.00 (LR P05) Module 1: English Language for Academic Purposes - English as a Common Tool for Multidisciplinary Exchange</li>\n
+<li>18.00 Social programme - International village</li>
+\n\n
+<b>3rd Day, Tuesday 19.8.2014</b>\n
+<li>9.00-12.00 (LR P14) Module 2: Public Services in the EU ? Administrative System, Legislation and Governance</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (LR P05)  Module 3: Legal and Social Aspects of EU in Crisis</li>\n
+<li>17.00 Social programme - Snaga visit and Ljubljana\'s City tour</li>
+\n\n
+<b>4th Day, Wednesday 20.8.2014</b>\n
+<li>08.30-12.00 (2,5 hours) Study visit to Municipality/Administrative unit Koper</li>\n
+<li>12.00-18.00 Free time in Piran</li>
+\n\n
+<b>5th Day, Thursday 21.8.2014</b>\n
+<li>9.00-12.00 (LR P14) Module 2: Public Services in the EU ? Administrative System, Legislation and Governance</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (LR P14) Module 2: Public Services in the EU ? Administrative System, Legislation and Governance</li>\n
+<li>16.10 Social programme: Experience Eco</li>
+\n\n
+<b>6th Day, Friday 22.8.2014</b>\n
+<li>9.00-12.00 (LR P14, P10,P11) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-17.30 (LR P10,P11,P12) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
+<li>19.00 Social programme - Traditional dance and karaoke</li>
+\n\n
+<b>7th Day, Saturday 23.8.2014</b>\n
+<li>Excursion to the alpine pearl Bled</li>
+\n\n
+<b>8th Day, Sunday 24.8.2014</b>\n
+<li>Free day</li>
+\n\n
+<b>9th Day, Monday 25.8.2014</b>\n
+<li>9.00-12.00 (LR P05) Module 3: Legal and Social Aspects of EU in Crisis</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-14.30 (LR P10,P11,P12) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
+<li>14.30-16.00 (LR P10,P11,P12) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
+<li>17.00 Social programme: Traditional Ljubljana\'s hike on "Šmarna gora"</li>
+\n\n
+<b>10th Day, Tuesday 26.8.2014</b>\n
+<li>9.00-12.00 (LR P05) Module 5: EU and its Influence on National Tax Systems</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (LR P05) Module 5: EU and its Influence on National Tax Systems</li>\n
+<li>18.00 Social programme - Beach volley</li>
+\n\n
+<b>11th Day, Wednesday 27.8.2014</b>\n
+<li>9.00-12.00 (LR P05) Module 6: Public Choice - Politics and Policy Issues in the EU Countries</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (LR P05) Module 6: Public Choice - Politics and Policy Issues in the EU Countries</li>
+\n\n
+<b>12th Day, Thursday 28.8.2014</b>\n
+<li>10.00-12.00 (2,5 hours) Study visit in Ljubljana (Municipality and Center of Excellence in Finance)</li>\n
+<li>12.00-13.00 Lunch</li>\n
+<li>13.00-16.00 (LR P10,P11,P12) Group Preparation for the final exam</li>
+\n\n
+<b>13th Day, Friday 29.8.2014</b>\n
+<li>9.00-12.00 (LR P05, P10, P11) Presentation and discussion of practical works, final written exam</li>\n
+<li>12.30-13.30 Lunch in "Šumi" restaurant</li>\n
+<li>13.30-14.30 (LR P14) Closing ceremony</li>
+\n\n
+<b>14th Day, Saturday 30.8.2014</b>\n
+<li>Departure</li>
+\n\n\n
+LR: lecture room\n
+\n
+<b>Coffee/tea breaks:</b>\n
+<li>10.00-10.15</li>\n
+<li>14.15-14.30</li>\n</string>
 
+    <string name="program_two">
+        <b>1st Day, Sunday 17.8.2014</b>\n
+<li>Arrival to Ljubljana</li>\n
+<li>18.00-20.00 Info desk and Get to know each other/Taste Slovenia</li>\n
+\n
+<b>2nd Day, Monday 18.8.2014</b>\n
+<li>9.30-10.00  Info desk, Faculty and Library tour</li>\n
+<li>10.00-12.15 (LR P14) Opening ceremony</li>\n
+<li>12.30-13.30 Lunch in dormitory</li>\n
+<li>14.00-17.00 (LR P04) Module 2: New Public Management ideology —> business process and ICT changes in the public administration</li>\n
+<li>18.00 Social programme - International village</li>\n
+\n
+<b>3rd Day, Tuesday 19.8.2014</b>\n
+<li>9.00-12.00 (LR P04) Module 3: Public Services in the EU —> Administrative System, Legislation and Governance</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (LR P14) Module 1: English Language for Academic  Purposes</li>\n
+<li>17.00-18.00 (1 hour) Visit to Waste Managment Company Snaga</li>\n
+<li>18.30 Social programme - Snaga visit and Ljubljana\'s City tour</li>\n
+\n
+<b>4th Day, Wednesday 20.8.2014</b>\n
+<li>08.30-12.00 (2,5 hours) Study visit to Municipality/Administrative unit in Koper</li>\n
+<li>12.00-18.00 Free time in Piran</li>\n
+\n
+<b>5th Day, Thursday 21.8.2014</b>\n
+<li>9.00-12.00 (LR P14) Module 3: Public Services in the EU —> Administrative System, Legislation and Governance</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00  (LR P14) Module 3: Public Services in the EU —> Administrative System, Legislation and Governance</li>\n
+<li>16.10 Social programme: Experience Eco </li>\n
+\n
+<b>6th Day, Friday 22.8.2014</b>\n
+<li>9.00-12.00 (LR P14,P10,P11) Module 4: Pan-European ICT Challenges and BPR in Public Administration</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-17.30 (LR P10,P11) Module 4: Pan-European ICT Challenges and BPR in Public Administration</li>\n
+<li>19.00 Social programme - Traditional dance and karaoke</li>\n
+\n
+<b>7th Day, Saturday 23.8.2014</b>\n
+<li>Excursion to the alpine pearl Bled</li>\n
+\n
+<b>8th Day, Sunday 24.8.2014</b>\n
+<li>Free day</li>\n
+\n
+<b>9th Day, Monday 25.8.2014</b>\n
+<li>9.45-12.00 (LR P04) Module 2: New Public Management ideology ? business process and ICT changes in the public administration</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-14.30 (LR P10,P11,P12) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
+<li>14.30-16.00 (LR P10,P11,P12) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
+<li>17.00 Social programme: Traditional Ljubljana\'s hike on "Šmarna gora"</li>\n
+\n
+<b>10th Day, Tuesday 26.8.2014</b>\n
+<li>9.00-12.00 (LR P04) Module 5: Business Process Reengineering</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (LR P11,P12) Group Preparation for the exam</li>\n
+<li>18.00 Social programme - Beach volley</li>\n
+\n
+<b>11th Day, Wednesday 27.8.2014</b>\n
+<li>9.00-12.00 (LR P04) Module 6: Data analysis ? the use of mathematical programming  in the efficiency analysis</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-14.30 (LR P04) Module 2: New Public Management ideology ? business process and ICT changes in the public administration</li>\n
+<li>14.30-16.00 (LR P11,P12) Group Preparation for the exam</li>\n
+\n
+<b>12th Day, Thursday 28.8.2014</b>\n
+<li>10.00-12.00 (2,5 hours) Study visit in Ljubljana (Municipality and Center of Excellence in Finance)</li>\n
+<li>12.00-13.00 Lunch in dormitory</li>\n
+<li>13.00-16.00 (4 hours) Group Preparation for the exam</li>
+\n
+<b>13th Day, Friday 29.8.2014</b>\n
+<li>9.00-12.00 (LR P04,P11,P12) Presentation and discussion of practical works, final written exam</li>\n
+<li>12.30-13.30 Lunch in "?umi" restaurant</li>\n
+<li>13.30-14.30 (LR P14) Closing ceremony</li>\n
+\n
+<b>14th Day, Saturday 30.8.2014</b>\n
+<li>Departure</li>\n
+\n
+LR: lecture room\n
+\n
+<b>Coffee/tea breaks:</b>\n
+<li>10.00-10.15</li>\n
+<li>14.15-14.30</li>\n
+    </string>
+
+    <string name="contacts">
+
+        Contacts:\n
+        \n
+        Marija SUŠNIK\n
+        Phone: +386 1 5805 530\n
+        marija.susnik@fu.uni-lj.si\n
+        \n
+        \n
+        Anja Dimič Andlovič\n
+        00386 41 313 922\n
+        anja.dimic.andlovic@gmail.com\n
+
+    </string>
+
+    <string name="glossary">
+        Good afternoon – Dober dan\n\n
+
+Good evening – Dober večer\n\n
+
+Hello – Živijo\n\n
+
+Welcome – Dobrodošli\n\n
+
+Goodbye - Nasvidenje\n\n
+
+My name is – Ime mi je\n\n
+
+Nice to meet you – Me veseli\n\n
+
+Do you speak English? – Govorite angleško?\n\n
+
+I don\'t speak Slovenian – Ne govorim slovensko.\n\n
+
+Yes/No – Ja/Ne\n\n
+
+How are you? – Kako si?\n\n
+
+Good – Dobro\n\n
+
+I would like to order – Rad/a bi naročil/a\n\n
+
+I am a vegetarian – Sem vegetarijanec / vegetarijanka\n\n
+
+I don\'t eat pork – Ne jem svinjine\n\n
+
+Enjo your meal – Dober tek\n\n
+
+Thank you – Hvala\n\n
+
+Cheers – Na zdravje\n\n
+
+Excuse me – Oprostite\n\n
+
+The check, please – Račun, prosim\n\n
+
+It was delicious – Bilo je odlično\n\n
+
+Water – voda\n\n
+
+Beer – pivo\n\n
+
+Salt – sol\n\n
+
+Cash – Denar\n\n
+
+Card - Kartica\n\n
+
+I need help – Potrebujem pomoč\n\n
+
+Where is... – Kje je ...\n\n
+
+Bathroom – kopalnica\n\n
+
+Toilet - Stranišče\n\n
+
+Dormitory – Študentski dom\n\n
+
+Bus station – Avtobusna postaja\n\n
+
+Train station – Železniška postaja\n\n
+
+You are beautiful – Lep/a si\n\n
+
+Can I get your number? – Lahko dobim tvojo številko?\n\n
+
+What do you drink? – Kaj piješ?\n\n
+
+What are you doing? – Kaj počneš?\n\n
+
+I love you – Ljubim te\n\n
+
+Wow, that is beautiful – Vau, to je lepo\n\n
+
+I adore this country – Obožujem to deželo\n\n
+    </string>
 </resources>

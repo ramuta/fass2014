@@ -6,20 +6,16 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
+// Bitches and hoes may break your bones
 
 public class MainActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -58,17 +54,27 @@ public class MainActivity extends Activity
         Log.i("Main",Integer.toString(position));
 
 
-        if(position==1)
-        {
-            ExampleFragment fragment = new ExampleFragment();
-            fragmentTransaction.replace(R.id.container,fragment);
-
-        }
-        else
+        if(position==0)
         {
             ProgramFragment fragment = new ProgramFragment();
             fragmentTransaction.replace(R.id.container,fragment);
 
+        }
+        else if(position==1)
+        {
+            ProgramTwoFragment fragment = new ProgramTwoFragment();
+            fragmentTransaction.replace(R.id.container,fragment);
+
+        }
+        else if(position==2)
+        {
+            GlossaryFragment fragment = new GlossaryFragment();
+            fragmentTransaction.replace(R.id.container,fragment);
+        }
+        else
+        {
+            ContactFragment fragment = new ContactFragment();
+            fragmentTransaction.replace(R.id.container,fragment);
         }
 
         fragmentTransaction.commit();
@@ -84,6 +90,9 @@ public class MainActivity extends Activity
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
                 break;
         }
     }
@@ -119,12 +128,12 @@ public class MainActivity extends Activity
     }
 
 
-    public static class ExampleFragment extends Fragment {
+    public static class ContactFragment extends Fragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             // Inflate the layout for this fragment
-            return inflater.inflate(R.layout.fragment_main, container, false);
+            return inflater.inflate(R.layout.fragment_contact, container, false);
         }
     }
 
@@ -134,6 +143,24 @@ public class MainActivity extends Activity
                                  Bundle savedInstanceState) {
             // Inflate the layout for this fragment
             return inflater.inflate(R.layout.fragment_program, container, false);
+        }
+    }
+
+    public static class ProgramTwoFragment extends Fragment {
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            // Inflate the layout for this fragment
+            return inflater.inflate(R.layout.fragment_program_two, container, false);
+        }
+    }
+
+    public static class GlossaryFragment extends Fragment {
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            // Inflate the layout for this fragment
+            return inflater.inflate(R.layout.fragment_glossary, container, false);
         }
     }
 
@@ -165,7 +192,7 @@ public class MainActivity extends Activity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_contact, container, false);
             return rootView;
         }
 
