@@ -28,4 +28,5 @@
         android:name="fass2014c.ramuta.me.fass2014.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer" />
 
+
 </android.support.v4.widget.DrawerLayout>
