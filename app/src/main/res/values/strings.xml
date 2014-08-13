@@ -169,16 +169,16 @@ LR: lecture room\n
 
     <string name="contacts">
 
-        Contacts:\n
+        <b>Contacts</b>\n
         \n
-        Marija SUŠNIK\n
+        Marija Sušnik\n
         Phone: +386 1 5805 530\n
-        marija.susnik@fu.uni-lj.si\n
+
         \n
         \n
         Anja Dimič Andlovič\n
         00386 41 313 922\n
-        anja.dimic.andlovic@gmail.com\n
+        \n
 
     </string>
 
@@ -263,4 +263,7 @@ Wow, that is beautiful – Vau, to je lepo\n\n
 
 I adore this country – Obožujem to deželo\n\n
     </string>
+
+    <string name="mail_anja"><a href="">anja.dimic.andlovic@gmail.com</a></string>
+    <string name="mail_marija"><a href="">marija.susnik@fu.uni-lj.si</a></string>
 </resources>

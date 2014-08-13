@@ -6,14 +6,18 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.TextView;
 
 // Bitches and hoes may break your bones
 
@@ -34,6 +38,8 @@ public class MainActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -75,6 +81,7 @@ public class MainActivity extends Activity
         {
             ContactFragment fragment = new ContactFragment();
             fragmentTransaction.replace(R.id.container,fragment);
+
         }
 
         fragmentTransaction.commit();
@@ -132,8 +139,37 @@ public class MainActivity extends Activity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
+            View inflaterView = inflater.inflate(R.layout.fragment_contact, container, false);
+
+            TextView mailAnja = (TextView) inflaterView.findViewById(R.id.anja_mail);
+            mailAnja.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(Intent.ACTION_SEND);
+                    intent.setType("text/plain");
+                    intent.putExtra(Intent.EXTRA_EMAIL, "anja.dimic.andlovic@gmail.com");
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "");
+                    intent.putExtra(Intent.EXTRA_TEXT, "");
+
+                    startActivity(Intent.createChooser(intent, "Send Email"));
+                }
+            });
+
+            TextView mailMarija = (TextView) inflaterView.findViewById(R.id.marija_mail);
+            mailMarija.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(Intent.ACTION_SEND);
+                    intent.setType("text/plain");
+                    intent.putExtra(Intent.EXTRA_EMAIL, "marija.susnik@fu.uni-lj.si");
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "");
+                    intent.putExtra(Intent.EXTRA_TEXT, "");
+
+                    startActivity(Intent.createChooser(intent, "Send Email"));
+                }
+            });
             // Inflate the layout for this fragment
-            return inflater.inflate(R.layout.fragment_contact, container, false);
+            return inflaterView;
         }
     }
 
@@ -203,5 +239,7 @@ public class MainActivity extends Activity
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
     }
+
+
 
 }
