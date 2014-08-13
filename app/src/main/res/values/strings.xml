@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FASS 2014</string>
+    <string name="app_name">FA Summer School 2014</string>
     <string name="title_section1">Program 1</string>
     <string name="title_section2">Program 2</string>
     <string name="title_section3">Glossary</string>
