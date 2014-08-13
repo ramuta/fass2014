@@ -183,27 +183,31 @@ LR: lecture room\n
         Anja Dimič Andlovič\n
         00386 41 313 922\n
         \n
-
+        \n
         University of Ljubljana\n
         Faculty of Administration\n
         Gosarjeva ulica 5\n
         1000 Ljubljana\n
-        \n
+        \n\n
 
         <b>Helpful links:</b>\n
-        <li>Official website: <a href="http://www.fu.uni-lj.si">http://www.fu.uni-lj.si</a></li>
+        <li>Official website: <a href="http://www.fu.uni-lj.si">http://www.fu.uni-lj.si</a></li>\n
+        <li>Official FB page: <a href="https://www.facebook.com/fasummerschool">https://www.facebook.com/fasummerschool</a></li>\n
+        <li>Eduroam Wi-Fi: <a href="http://www.arnes.si/en/helpdesk/eduroam/instructions-on-establishing-a-connection.html">http://www.arnes.si/en/helpdesk/eduroam/instructions-on-establishing-a-connection.html</a></li>\n
+        <li>Moodle e-classroom: <a href="https://e-izobrazevanje.fu.uni-lj.si/">https://e-izobrazevanje.fu.uni-lj.si/</a></li>\n
 
     </string>
 
     <string name="glossary">
 <b>Glossary</b>
-\n
+\n\n\n
 
         Good afternoon – Dober dan\n\n
 
 Good evening – Dober večer\n\n
 
-Hello – Živijo\n\n
+Hello – Živijo\n\ncontext.startActivity(intent);
+
 
 Welcome – Dobrodošli\n\n
 
@@ -282,4 +286,7 @@ I adore this country – Obožujem to deželo\n\n
 
     <string name="mail_anja"><a href="">anja.dimic.andlovic@gmail.com</a></string>
     <string name="mail_marija"><a href="">marija.susnik@fu.uni-lj.si</a></string>
+    <string name="google_address"><a href="">Faculty of Administration address: Gosarjeva ulica 5, 1000 Ljubljana</a></string>
+    <string name="mail_faculty"><a href="">summerschool@fu.uni-lj.si</a></string>
+
 </resources>

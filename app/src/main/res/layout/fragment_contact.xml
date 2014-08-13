@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,26 +8,55 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity$PlaceholderFragment">
 
-    <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/contacts"
-        android:autoLink="web"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mail_anja"
-        android:layout_marginTop="126dp"
-        android:layout_marginLeft="3dp"
-        android:id="@+id/anja_mail"/>
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contacts"
+            android:autoLink="web"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mail_marija"
-        android:layout_marginTop="64dp"
-        android:layout_marginLeft="3dp"
-        android:id="@+id/marija_mail"/>
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail_anja"
+            android:layout_marginTop="126dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/anja_mail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail_marija"
+            android:layout_marginTop="64dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/marija_mail"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google_address"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/google_address"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/faculty_mail"
+            android:text="@string/mail_faculty"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="430dp"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unnamed"
+            android:layout_marginTop="500dp"/>
+
+        </RelativeLayout>
+
+</ScrollView>

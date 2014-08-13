@@ -8,6 +8,7 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -166,6 +167,30 @@ public class MainActivity extends Activity
                     intent.putExtra(Intent.EXTRA_TEXT, "");
 
                     startActivity(Intent.createChooser(intent, "Send Email"));
+                }
+            });
+
+            TextView mailFaculty = (TextView) inflaterView.findViewById(R.id.faculty_mail);
+            mailFaculty.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(Intent.ACTION_SEND);
+                    intent.setType("text/plain");
+                    intent.putExtra(Intent.EXTRA_EMAIL, "summerschool@fu.uni-lj.si");
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "");
+                    intent.putExtra(Intent.EXTRA_TEXT, "");
+
+                    startActivity(Intent.createChooser(intent, "Send Email"));
+                }
+            });
+
+            TextView googleAddress = (TextView) inflaterView.findViewById(R.id.google_address);
+            googleAddress.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String geoUri = "http://maps.google.com/maps?q=loc:" + 46.074434 + "," + 14.515203 + "(" + "Faculty of Administration" + ")";
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUri));
+                    getActivity().startActivity(intent);
                 }
             });
             // Inflate the layout for this fragment
