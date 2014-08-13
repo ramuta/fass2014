@@ -11,6 +11,8 @@
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <string name="program_one">
+<b>Program 1</b>
+\n
 <b>1st Day, Sunday 17.8.2014</b>\n
 <li>Arrival to Ljubljana</li>\n
 <li>18.00-20.00 Info desk and Get to know each other/Taste Slovenia</li>
@@ -88,7 +90,9 @@ LR: lecture room\n
 <li>14.15-14.30</li>\n</string>
 
     <string name="program_two">
-        <b>1st Day, Sunday 17.8.2014</b>\n
+<b>Program 2</b>
+\n
+<b>1st Day, Sunday 17.8.2014</b>\n
 <li>Arrival to Ljubljana</li>\n
 <li>18.00-20.00 Info desk and Get to know each other/Taste Slovenia</li>\n
 \n
@@ -180,9 +184,21 @@ LR: lecture room\n
         00386 41 313 922\n
         \n
 
+        University of Ljubljana\n
+        Faculty of Administration\n
+        Gosarjeva ulica 5\n
+        1000 Ljubljana\n
+        \n
+
+        <b>Helpful links:</b>\n
+        <li>Official website: <a href="http://www.fu.uni-lj.si">http://www.fu.uni-lj.si</a></li>
+
     </string>
 
     <string name="glossary">
+<b>Glossary</b>
+\n
+
         Good afternoon – Dober dan\n\n
 
 Good evening – Dober večer\n\n
