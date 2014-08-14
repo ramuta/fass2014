@@ -78,9 +78,9 @@ public class MainActivity extends Activity
             GlossaryFragment fragment = new GlossaryFragment();
             fragmentTransaction.replace(R.id.container,fragment);
         }
-        else
+        else if(position==4)
         {
-            ContactFragment fragment = new ContactFragment();
+            ContestFragment fragment = new ContestFragment();
             fragmentTransaction.replace(R.id.container,fragment);
 
         }
@@ -101,6 +101,9 @@ public class MainActivity extends Activity
                 break;
             case 4:
                 mTitle = getString(R.string.title_section4);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
                 break;
         }
     }
@@ -222,6 +225,15 @@ public class MainActivity extends Activity
                                  Bundle savedInstanceState) {
             // Inflate the layout for this fragment
             return inflater.inflate(R.layout.fragment_glossary, container, false);
+        }
+    }
+
+    public static class ContestFragment extends Fragment {
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            // Inflate the layout for this fragment
+            return inflater.inflate(R.layout.fragment_contest, container, false);
         }
     }
 

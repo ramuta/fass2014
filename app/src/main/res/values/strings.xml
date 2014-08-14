@@ -6,13 +6,14 @@
     <string name="title_section2">Program 2</string>
     <string name="title_section3">Glossary</string>
     <string name="title_section4">Contacts</string>
+    <string name="title_section5">Photo contest</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <string name="program_one">
 <b>Program 1</b>
-\n
+\n\n\n
 <b>1st Day, Sunday 17.8.2014</b>\n
 <li>Arrival to Ljubljana</li>\n
 <li>18.00-20.00 Info desk and Get to know each other/Taste Slovenia</li>
@@ -91,7 +92,7 @@ LR: lecture room\n
 
     <string name="program_two">
 <b>Program 2</b>
-\n
+\n\n\n
 <b>1st Day, Sunday 17.8.2014</b>\n
 <li>Arrival to Ljubljana</li>\n
 <li>18.00-20.00 Info desk and Get to know each other/Taste Slovenia</li>\n
@@ -288,5 +289,29 @@ I adore this country – Obožujem to deželo\n\n
     <string name="mail_marija"><a href="">marija.susnik@fu.uni-lj.si</a></string>
     <string name="google_address"><a href="">Faculty of Administration address: Gosarjeva ulica 5, 1000 Ljubljana</a></string>
     <string name="mail_faculty"><a href="">summerschool@fu.uni-lj.si</a></string>
+
+    <string name="contest">
+        <b>FASS Photo Contest</b>
+\n\n\n
+Obligatory hashtags: #FASS #summerschool\n\n
+3 categories on Facebook and Instagram account:\n
+#eco #funny #touristic
+\n\n\n
+FB: https://www.facebook.com/fasummerschool
+\n\n\n
+
+<b>INSTAGRAM</b>\n\n
+1. Follow us on Instagram @fasummerschool\n
+http://instagram.com/fasummerschool\n
+Title #FASS #summerschool #eco.\n\n
+Each student/lecturer can submit only one photo per category.
+\n\n\n
+<b>When?</b>\n\n
+17.8. (9 a.m.) ? 28.8. (11 a.m.).\n
+At the end we will choose:\n\n
+<li>3 winners (1 winner per each category) on  Facebook official page: Faculty of Administration  Summer School</li>\n
+<li>3 winners (1 winner per each category) on Instagram account @fasummerschool</li>\n\n
+The winners will get an attractive award/prize.\n
+    </string>
 
 </resources>
