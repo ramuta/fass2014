@@ -78,6 +78,11 @@ public class MainActivity extends Activity
             GlossaryFragment fragment = new GlossaryFragment();
             fragmentTransaction.replace(R.id.container,fragment);
         }
+        else if(position==3)
+        {
+            ContactFragment fragment = new ContactFragment();
+            fragmentTransaction.replace(R.id.container,fragment);
+        }
         else if(position==4)
         {
             ContestFragment fragment = new ContestFragment();
