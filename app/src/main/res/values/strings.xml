@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">FA Summer School 2014</string>
-    <string name="title_section1">Program 1</string>
-    <string name="title_section2">Program 2</string>
+    <string name="title_section1">SS1</string>
+    <string name="title_section2">SS2</string>
     <string name="title_section3">Glossary</string>
     <string name="title_section4">Contacts</string>
     <string name="title_section5">Photo contest</string>
@@ -12,7 +12,7 @@
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <string name="program_one">
-<b>Program 1</b>
+<b>Challenges in Public Administration in the European Union</b>
 \n\n\n
 <b>1st Day, Sunday 17.8.2014</b>\n
 <li>Arrival to Ljubljana</li>\n
@@ -20,7 +20,7 @@
 \n\n
 <b>2nd Day, Monday 18.8.2014</b>\n
 <li>9.30-10.00 (LR P14) Info desk, Faculty and Library tour</li>\n
-<li>10.00-12.15 (LR P14)) Opening ceremony</li>\n
+<li>10.00-12.15 (LR P14) Opening ceremony</li>\n
 <li>12.30-13.30 Lunch in dormitory</li>\n
 <li>14.00-17.00 (LR P05) Module 1: English Language for Academic Purposes - English as a Common Tool for Multidisciplinary Exchange</li>\n
 <li>18.00 Social programme - International village</li>
@@ -45,7 +45,7 @@
 <li>9.00-12.00 (LR P14, P10,P11) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
 <li>12.00-13.00 Lunch in dormitory</li>\n
 <li>13.00-17.30 (LR P10,P11,P12) Module 4: Pan-European ICT Challenges in Public Administration</li>\n
-<li>19.00 Social programme - Traditional dance and karaoke</li>
+<li>20.00 Social programme - Traditional dance and karaoke</li>
 \n\n
 <b>7th Day, Saturday 23.8.2014</b>\n
 <li>Excursion to the alpine pearl Bled</li>
@@ -72,7 +72,7 @@
 <li>13.00-16.00 (LR P05) Module 6: Public Choice - Politics and Policy Issues in the EU Countries</li>
 \n\n
 <b>12th Day, Thursday 28.8.2014</b>\n
-<li>10.00-12.00 (2,5 hours) Study visit in Ljubljana (Municipality and Center of Excellence in Finance)</li>\n
+<li>10.00-12.00 (2,5 hours) Study visit in Ljubljana (Municipality)</li>\n
 <li>12.00-13.00 Lunch</li>\n
 <li>13.00-16.00 (LR P10,P11,P12) Group Preparation for the final exam</li>
 \n\n
@@ -87,11 +87,11 @@
 LR: lecture room\n
 \n
 <b>Coffee/tea breaks:</b>\n
-<li>10.00-10.15</li>\n
+<li>10.15-10.30</li>\n
 <li>14.15-14.30</li>\n</string>
 
     <string name="program_two">
-<b>Program 2</b>
+<b>New Public Management: Contemporary ICT and Working Technique Issues for Public Administration</b>
 \n\n\n
 <b>1st Day, Sunday 17.8.2014</b>\n
 <li>Arrival to Ljubljana</li>\n
@@ -101,7 +101,7 @@ LR: lecture room\n
 <li>9.30-10.00  Info desk, Faculty and Library tour</li>\n
 <li>10.00-12.15 (LR P14) Opening ceremony</li>\n
 <li>12.30-13.30 Lunch in dormitory</li>\n
-<li>14.00-17.00 (LR P04) Module 2: New Public Management ideology —> business process and ICT changes in the public administration</li>\n
+<li>14.00-16.15 (LR P04) Module 2: New Public Management ideology —> business process and ICT changes in the public administration</li>\n
 <li>18.00 Social programme - International village</li>\n
 \n
 <b>3rd Day, Tuesday 19.8.2014</b>\n
@@ -168,7 +168,7 @@ LR: lecture room\n
 LR: lecture room\n
 \n
 <b>Coffee/tea breaks:</b>\n
-<li>10.00-10.15</li>\n
+<li>10.15-10.30</li>\n
 <li>14.15-14.30</li>\n
     </string>
 
@@ -207,7 +207,7 @@ LR: lecture room\n
 
 Good evening – Dober večer\n\n
 
-Hello – Živijo\n\ncontext.startActivity(intent);
+Hello – Živijo\n\n
 
 
 Welcome – Dobrodošli\n\n
@@ -307,7 +307,7 @@ Title #FASS #summerschool #eco.\n\n
 Each student/lecturer can submit only one photo per category.
 \n\n\n
 <b>When?</b>\n\n
-17.8. (9 a.m.) ? 28.8. (11 a.m.).\n
+17.8. (9 a.m.)  28.8. (11 a.m.).\n
 At the end we will choose:\n\n
 <li>3 winners (1 winner per each category) on  Facebook official page: Faculty of Administration  Summer School</li>\n
 <li>3 winners (1 winner per each category) on Instagram account @fasummerschool</li>\n\n
