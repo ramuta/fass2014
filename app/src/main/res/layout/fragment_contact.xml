@@ -39,7 +39,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/google_address"
-            android:layout_marginTop="480dp"
+            android:layout_marginTop="430dp"
             android:layout_marginLeft="3dp"
             android:id="@+id/google_address"/>
 
@@ -49,13 +49,13 @@
             android:id="@+id/faculty_mail"
             android:text="@string/mail_faculty"
             android:layout_marginLeft="3dp"
-            android:layout_marginTop="430dp"/>
+            android:layout_marginTop="230dp"/>
 
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/unnamed"
-            android:layout_marginTop="500dp"/>
+            android:layout_marginTop="470dp"/>
 
         </RelativeLayout>
 
