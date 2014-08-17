@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mail_anja"
-            android:layout_marginTop="126dp"
+            android:layout_marginTop="130dp"
             android:layout_marginLeft="3dp"
             android:id="@+id/anja_mail"/>
 

@@ -8,8 +8,8 @@ android {
         applicationId "fass2014c.ramuta.me.fass2014"
         minSdkVersion 14
         targetSdkVersion 20
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
     }
     buildTypes {
         release {
